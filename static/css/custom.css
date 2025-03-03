@@ -1,0 +1,74 @@
+
+
+@font-face {
+font-family: "MyGirlIsRetro-0Grz";
+src: url("/static/assets/fonts/MyGirlIsRetro-0Grz.ttf");
+}
+@font-face {
+font-family: "PressStart2P-vaV7";
+src: url("/static/assets/fonts/PressStart2P-vaV7.ttf");
+}
+
+@font-face {
+font-family: "EightBit Atari-Anglik";
+src: url("/static/assets/fonts/EightBit Atari-Anglik.ttf");
+}
+
+
+
+.fs-3.fw-light.text-muted {
+    font-family: MyGirlIsRetro-0Grz !important;
+    /*src: url("/static/assets/fonts/PressStart2P-vaV7.ttf");*/
+}
+
+
+body {
+    font-family: EightBit Atari-Anglik !important;
+
+
+    /*src: url("/static/assets/fonts/PressStart2P-vaV7.ttf");*/
+}
+
+
+.footfoot {
+    color: #39FF14;
+}
+h1 {
+    color: #8A2BE2;
+}
+
+
+#form {
+    color: #00FFFF;
+}
+
+.projects-color {
+    background: #C0C0C0;
+}
+
+.gray {
+    color: #C0C0C0;
+}
+
+.gray-back {
+    background: #C0C0C0;
+}
+
+.darker-gradiant-bg {
+    background: #00FFFF;
+    background: linear-gradient(20deg, #1A1A2E 0%, #8A2BE2 100%);
+}
+
+
+.orange {
+    color: #FF6F00 !important;
+}
+
+.purple {
+    color: #8A2BE2;
+}
+
+.custom-link {
+    text-decoration: none;
+    color: #8A2BE2;
+}

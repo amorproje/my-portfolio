@@ -1,0 +1,114 @@
+{% include "header.html" %}
+<!DOCTYPE html>
+<html lang="en">
+
+            <!-- Projects Section-->
+            <section class="py-5">
+                <div class="container px-5 mb-5">
+                    <div class="text-center mb-5">
+                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+                    </div>
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 projects-color">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">A. AI-Powered Applications</h2>
+                                                <p>Project Title: AI-Powered Smart Reminder,
+Description: Designed a Flask-based web application that allows users to set reminders. Integrated an AI API to generate meaningful and memorable notes based on the reminder details, helping users retain information more effectively.
+Technologies Used: Flask, Python, OpenAI API, HTML/CSS, Bootstrap.</p>
+                                        </div>
+                                        <img class="img-fluid" src="../static/assets/Untitled7.png" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Project Card 2-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 projects-color">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">B. Web Development with Flask</h2>
+                                                <p>Project Titles: Personal portfolio website,
+Coffee shop review platform web app – a user-driven site for adding/rating coffee shops with pros and cons,
+Image color extraction tool web app,
+To-Do Web app and many more...
+Technologies Used: Flask, Jinja2, Bootstrap, BeautifulSoup, Requests, Pillow, OpenCV, SQLite.</p>
+                                        </div>
+                                        <img class="img-fluid" src="../static/assets/Untitled.png" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Project Card 3-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 projects-color">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">C. Data Science</h2>
+                                            <p>Project Titles: “Impact of film budgets to revenue”,Analyzing Police Fatalities Age Distribution Visualization,
+                                                Analyzing space missions using historical launch data”
+Technologies Used: Python, Pandas, Scikit-Learn, Matplotlib,Seaborn.</p>
+                                        </div>
+                                        <img class="img-fluid" src="../static/assets/Untitled2.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Card 4-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5 projects-color">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">D. Game Development</h2>
+                                            <p>Project Titles:</p>
+                                            <p> “Snake game” , <a class="custom-link" href="https://github.com/amorproje/Tic-Tac-Toe-Game">“Tic-Tac-Toe”</a> ,“Google Dinosaur Bot” ,“Invader Game” ,
+
+Technologies Used: Python, Pygame,Turtle, PyAutoGUI, Selenium, PIL (Pillow).</p>
+                                        </div>
+                                        <img class="img-fluid" src="../static/assets/Untitled3.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Project Card 5-->
+                            <div class="card overflow-hidden shadow rounded-4 border-0 projects-color">
+                                <div class="card-body p-0">
+                                    <div class="d-flex align-items-center">
+                                        <div class="p-5">
+                                            <h2 class="fw-bolder">E. Web Scraping</h2>
+                                            <p>
+
+Project Titles: “E-Commerce Price Comparison Tool” ,“News to Podcast Converter”
+
+Technologies Used: Python, BeautifulSoup, Requests, gTTS (Google Text-to-Speech).</p>
+                                        </div>
+                                        <img class="img-fluid" src="../static/assets/Untitled4.jpg" alt="..." />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </section>
+            <!-- Call to action section-->
+            <section class="py-5 darker-gradiant-bg text-white">
+                <div class="container px-5 my-5">
+                    <div class="text-center">
+                        <h2 class="display-4 fw-bolder mb-4 gray">Let's build something together</h2>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="{{ url_for('contact') }}">Contact me</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </body>
+</html>
+{% include "footer.html" %}

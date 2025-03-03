@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore sensitive configuration files
+config.py
+instance/
+
+# Ignore environment variables
+.env
+.idea
